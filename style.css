@@ -9,9 +9,7 @@ h1{
 h2{
    color:rgba(187, 126, 95, 1);   
 }
-.sec1 {
-  padding: 60px;
-}
+
 
 .container {
   display: grid;
@@ -19,14 +17,15 @@ h2{
   gap: 25px;
 }
 
-/* CARD */
 .card {
   background: rgba(187, 126, 95, 1);
   border-radius: 38px;
-  padding: 15px;
+  padding: 1px;
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   transition: 0.3s;
+ margin-bottom: 5px;
+ 
 }
 
 .card:hover {
